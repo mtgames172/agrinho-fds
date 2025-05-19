@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando o Campo e a Cidade</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Festejando o Campo e a Cidade</h1>
+            <p class="subtitle">A harmonia entre dois mundos</p>
+        </div>
+        <div class="header-image"></div>
+    </header>
+
+    <main class="container">
+        <section class="intro-section">
+            <h2>Dois estilos de vida, um só povo</h2>
+            <p>Descubra como campo e cidade se complementam na construção de uma sociedade mais equilibrada.</p>
+        </section>
+
+        <section class="comparison-section">
+            <article class="card rural-card">
+                <div class="card-icon">🌄</div>
+                <h3>Vida no Campo</h3>
+                <ul class="benefits-list">
+                    <li>Contato direto com a natureza</li>
+                    <li>Alimentos frescos e saudáveis</li>
+                    <li>Ritmo de vida mais tranquilo</li>
+                    <li>Tradições culturais preservadas</li>
+                </ul>
+                <button class="btn rural-btn">Saber mais</button>
+            </article>
+
+            <article class="card urban-card">
+                <div class="card-icon">🏙️</div>
+                <h3>Vida na Cidade</h3>
+                <ul class="benefits-list">
+                    <li>Acesso a serviços diversos</li>
+                    <li>Oportunidades profissionais</li>
+                    <li>Infraestrutura completa</li>
+                    <li>Diversidade cultural</li>
+                </ul>
+                <button class="btn urban-btn">Saber mais</button>
+            </article>
+
+            <article class="card harmony-card">
+                <div class="card-icon">🤝</div>
+                <h3>Harmonia Possível</h3>
+                <ul class="benefits-list">
+                    <li>Agricultura urbana</li>
+                    <li>Tecnologia no campo</li>
+                    <li>Parques e áreas verdes</li>
+                    <li>Mobilidade sustentável</li>
+                </ul>
+                <button class="btn harmony-btn">Saber mais</button>
+            </article>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Nossas Raízes e Nossa Evolução</h2>
+            <div class="gallery-container">
+                <div class="gallery-item" data-category="rural">
+                    <img src="images/campo1.jpg" alt="Paisagem rural">
+                    <div class="image-caption">Tradição que alimenta</div>
+                </div>
+                <div class="gallery-item" data-category="urban">
+                    <img src="images/cidade1.jpg" alt="Paisagem urbana">
+                    <div class="image-caption">Progresso que conecta</div>
+                </div>
+                <div class="gallery-item" data-category="harmony">
+                    <img src="images/harmonia1.jpg" alt="Integração campo-cidade">
+                    <div class="image-caption">Futuro que integra</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <h2>O que dizem sobre essa união</h2>
+            <div class="testimonial active">
+                <blockquote>"Vivi nos dois mundos e cada um me ensinou lições valiosas sobre comunidade e progresso."</blockquote>
+                <cite>- Carlos, Engenheiro Agrônomo</cite>
+            </div>
+            <div class="testimonial">
+                <blockquote>"O campo alimenta o corpo, a cidade alimenta a mente. Precisamos dos dois."</blockquote>
+                <cite>- Ana, Professora</cite>
+            </div>
+            <div class="testimonial-nav">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>© 2023 Festejando o Campo e a Cidade</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon">📱</a>
+                <a href="#" class="social-icon">💻</a>
+                <a href="#" class="social-icon">📧</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
